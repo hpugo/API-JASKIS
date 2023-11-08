@@ -95,8 +95,8 @@ db.bounties.find({reward: {$gte: 10000}})
 db.bounties.find({client: {$ne: "Red Wolf"}})
 
 // 4. Query for a Groundhog in the Woodlands
-
-// Update and Delete
+db.bounties.find({species:"Groundhog"},{location:"Woodlands"}
+)// Update and Delete
 // 1. Update the reward for Polarwind to 10000
 
 // 2. Remove Lokinkajou
